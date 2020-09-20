@@ -1,5 +1,10 @@
+@font-face {
+    font-family: NanumCustom;
+    src: url(../fonts/NanumGothic-Bold.ttf);
+}
+
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: NanumCustom, Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
     padding: 0px;
 }
