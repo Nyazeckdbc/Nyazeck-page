@@ -102,6 +102,19 @@
     font-weight: bold;
     font-size: 20px;
     color: floralwhite;
+    animation-name: animacion;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
-@keyframes animacion {}
+@keyframes animacion {
+    0% {
+        margin-left: 0%;
+    }
+    50% {
+        margin-left: 80%;
+    }
+    100% {
+        margin-left: 0%;
+    }
+}
