@@ -113,6 +113,7 @@
     }
     50% {
         margin-left: 80%;
+        background-color: hsl(212, 100%, 30%);
     }
     100% {
         margin-left: 0%;
