@@ -1,30 +1,107 @@
-@font-face {
-    font-family: NanumCustom;
-    src: url(../fonts/NanumGothic-Bold.ttf);
-}
-
 * {
-    font-family: NanumCustom, Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
     padding: 0px;
-}
-
-h1 {
-    background-color: gray;
-    color: white;
-    padding: 10px;
-}
-
-a {
     text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-footer a {
-    color: teal;
+.contenedor {
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 20px;
+    border: 1px solid gray;
 }
 
-#descripcion {
-    border: 3px solid gainsboro;
-    margin: 10px;
-    padding: 33px;
+.cabecera {
+    background-image: url(../img/fondo-cabecera.jpg);
+    color: honeydew;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
 }
+
+.menu {
+    background-color: firebrick;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.menu ul li {
+    display: block;
+    float: left;
+    padding: 10px;
+    border-right: 2px solid white;
+}
+
+.menu ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+.menu ul li:hover {
+    background-color: white;
+}
+
+.menu ul li:hover a {
+    color: firebrick;
+}
+
+.contenido {
+    float: left;
+    width: 69%;
+    text-align: center;
+}
+
+.lateral {
+    float: left;
+    width: 29%;
+    min-height: 100px;
+    max-height: 300px;
+    border: 1px solid black;
+    overflow-y: scroll;
+    padding: 11px;
+}
+
+.contenido .caja {
+    width: 40%;
+    height: 250px;
+    background-color: firebrick;
+    float: left;
+    margin: 20px;
+    box-shadow: 5px 5px 5px #444;
+    transition: all 2s;
+}
+
+.contenido .caja:hover {
+    width: 40%;
+    height: 250px;
+    background-color: hsl(212, 100%, 30%);
+    float: left;
+    margin: 20px;
+    box-shadow: 5px 5px 5px #444;
+}
+
+.pie {
+    background-color: #eee;
+    color: #444;
+    text-align: center;
+    padding: 15px;
+}
+
+.animar {
+    background-color: firebrick;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    line-height: 250px;
+    font-weight: bold;
+    font-size: 20px;
+    color: floralwhite;
+}
+
+@keyframes animacion {}
